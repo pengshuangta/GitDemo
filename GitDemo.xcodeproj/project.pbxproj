@@ -16,6 +16,9 @@
 		136888151F67770200A445F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136888131F67770200A445F9 /* LaunchScreen.storyboard */; };
 		136888201F67770200A445F9 /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1368881F1F67770200A445F9 /* GitDemoTests.m */; };
 		1368882B1F67770200A445F9 /* GitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1368882A1F67770200A445F9 /* GitDemoUITests.m */; };
+		136888521F67CA4400A445F9 /* FirstViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 136888511F67CA4400A445F9 /* FirstViewViewController.m */; };
+		136888531F67CA4400A445F9 /* FirstViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 136888511F67CA4400A445F9 /* FirstViewViewController.m */; };
+		136888541F67CA4400A445F9 /* FirstViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 136888511F67CA4400A445F9 /* FirstViewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,8 @@
 		136888261F67770200A445F9 /* GitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1368882A1F67770200A445F9 /* GitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoUITests.m; sourceTree = "<group>"; };
 		1368882C1F67770200A445F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		136888501F67CA4400A445F9 /* FirstViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewViewController.h; sourceTree = "<group>"; };
+		136888511F67CA4400A445F9 /* FirstViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,8 @@
 				136888061F67770200A445F9 /* AppDelegate.m */,
 				136888081F67770200A445F9 /* ViewController.h */,
 				136888091F67770200A445F9 /* ViewController.m */,
+				136888501F67CA4400A445F9 /* FirstViewViewController.h */,
+				136888511F67CA4400A445F9 /* FirstViewViewController.m */,
 				1368880B1F67770200A445F9 /* Main.storyboard */,
 				136888111F67770200A445F9 /* Assets.xcassets */,
 				136888131F67770200A445F9 /* LaunchScreen.storyboard */,
@@ -279,6 +286,7 @@
 				1368880A1F67770200A445F9 /* ViewController.m in Sources */,
 				136888101F67770200A445F9 /* GitDemo.xcdatamodeld in Sources */,
 				136888071F67770200A445F9 /* AppDelegate.m in Sources */,
+				136888521F67CA4400A445F9 /* FirstViewViewController.m in Sources */,
 				136888041F67770200A445F9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				136888531F67CA4400A445F9 /* FirstViewViewController.m in Sources */,
 				136888201F67770200A445F9 /* GitDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				136888541F67CA4400A445F9 /* FirstViewViewController.m in Sources */,
 				1368882B1F67770200A445F9 /* GitDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +521,7 @@
 				136888311F67770200A445F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		136888321F67770200A445F9 /* Build configuration list for PBXNativeTarget "GitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +530,7 @@
 				136888341F67770200A445F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		136888351F67770200A445F9 /* Build configuration list for PBXNativeTarget "GitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +539,7 @@
 				136888371F67770200A445F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
