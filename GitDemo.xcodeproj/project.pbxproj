@@ -19,6 +19,9 @@
 		136888521F67CA4400A445F9 /* FirstViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 136888511F67CA4400A445F9 /* FirstViewViewController.m */; };
 		136888531F67CA4400A445F9 /* FirstViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 136888511F67CA4400A445F9 /* FirstViewViewController.m */; };
 		136888541F67CA4400A445F9 /* FirstViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 136888511F67CA4400A445F9 /* FirstViewViewController.m */; };
+		136888571F67CABB00A445F9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 136888561F67CABB00A445F9 /* SecondViewController.m */; };
+		136888581F67CABB00A445F9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 136888561F67CABB00A445F9 /* SecondViewController.m */; };
+		136888591F67CABB00A445F9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 136888561F67CABB00A445F9 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,8 @@
 		1368882C1F67770200A445F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		136888501F67CA4400A445F9 /* FirstViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewViewController.h; sourceTree = "<group>"; };
 		136888511F67CA4400A445F9 /* FirstViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewViewController.m; sourceTree = "<group>"; };
+		136888551F67CABB00A445F9 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		136888561F67CABB00A445F9 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +119,8 @@
 				136888091F67770200A445F9 /* ViewController.m */,
 				136888501F67CA4400A445F9 /* FirstViewViewController.h */,
 				136888511F67CA4400A445F9 /* FirstViewViewController.m */,
+				136888551F67CABB00A445F9 /* SecondViewController.h */,
+				136888561F67CABB00A445F9 /* SecondViewController.m */,
 				1368880B1F67770200A445F9 /* Main.storyboard */,
 				136888111F67770200A445F9 /* Assets.xcassets */,
 				136888131F67770200A445F9 /* LaunchScreen.storyboard */,
@@ -283,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				136888571F67CABB00A445F9 /* SecondViewController.m in Sources */,
 				1368880A1F67770200A445F9 /* ViewController.m in Sources */,
 				136888101F67770200A445F9 /* GitDemo.xcdatamodeld in Sources */,
 				136888071F67770200A445F9 /* AppDelegate.m in Sources */,
@@ -295,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				136888581F67CABB00A445F9 /* SecondViewController.m in Sources */,
 				136888531F67CA4400A445F9 /* FirstViewViewController.m in Sources */,
 				136888201F67770200A445F9 /* GitDemoTests.m in Sources */,
 			);
@@ -304,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				136888591F67CABB00A445F9 /* SecondViewController.m in Sources */,
 				136888541F67CA4400A445F9 /* FirstViewViewController.m in Sources */,
 				1368882B1F67770200A445F9 /* GitDemoUITests.m in Sources */,
 			);
