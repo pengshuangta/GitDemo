@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#define ScreenW [UIScreen mainScreen].bounds.size.width
+#define ScreenH [UIScreen mainScreen].bounds.size.height
 @interface ViewController ()
 
 @end
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *testBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 10, ScreenW, 100)];
+    [testBtn setTitle:@"test" forState:0];
+    [self.view addSubview:testBtn];
 }
 
 
