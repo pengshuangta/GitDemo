@@ -20,6 +20,7 @@
     
     UIButton *testBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 10, ScreenW, 100)];
     [testBtn setTitle:@"test" forState:0];
+    testBtn.backgroundColor = [UIColor redColor];
     [self.view addSubview:testBtn];
 }
 
